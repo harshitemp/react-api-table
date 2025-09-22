@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.container {
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.posts-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.posts-table th, .posts-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.posts-table th {
+  background-color: #4CAF50;
+  color: #fff;
+  font-weight: bold;
+}
+
+.posts-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 50px 0;
+}
+
+.message.error {
+  color: #f44336;
+}
